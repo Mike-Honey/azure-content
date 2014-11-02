@@ -133,7 +133,7 @@ The virtual machine must have an endpoint to listen for incoming TCP communicati
 
 ###<a id="FW">Open TCP ports in the Windows firewall for the default instance of the Database Engine</a>
 
-1. Connect to the virtual machine via Windows Remote Desktop. Once logged in, on the Start menu, click **Run**, type **WF.msc**, and then click **OK**.
+1. Connect to the virtual machine via Windows Remote Desktop. Once logged in, on the Start menu, click **Run**, type **WF.msc**, and then click **OK**. If running Windows Server 2012 or later, from the Start menu just type **WF** then select **Windows Firewall with Advanced Security**.
 
 	![Start the Firewall Program][Image12]
 2. In the **Windows Firewall with Advanced Security**, in the left pane, right-click **Inbound Rules**, and then click **New Rule** in the action pane.
